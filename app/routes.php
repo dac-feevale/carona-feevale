@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/preciso-de-carona', function()
+{
+    return View::make('preciso-de-carona');
+});
