@@ -13,11 +13,28 @@
 		</header>
 		<main>
 			<section class="row">
-				<div class="btn-group">
-					<button type="button" class="btn btn-default">Ida e volta</button>
-					<button type="button" class="btn btn-default">Ida</button>
-					<button type="button" class="btn btn-default">Volta</button>
-				</div>
+				<form>
+					<div class="btn-group">
+						<button type="button" class="btn btn-default">Ida e volta</button>
+						<button type="button" class="btn btn-default">Ida</button>
+						<button type="button" class="btn btn-default">Volta</button>
+					</div>
+					 <div class="form-group">
+					    <label for="ida">&gt;&gt; Feevale</label>
+					    <input type="text" class="form-control" id="ida" placeholder="De onde você sai para a Feevale?">
+					</div>
+					<div class="form-group">
+					    <label for="volta"> Feevale &lt;&lt;</label>
+					    <input type="text" class="form-control" id="volta" placeholder="Para onde você vai ao sair da Feevale?">
+					</div>
+					<div class="btn-group">
+						<button type="button" class="btn btn-default">Manhã</button>
+						<button type="button" class="btn btn-default">Intermediário</button>
+						<button type="button" class="btn btn-default">Tarde</button>
+						<button type="button" class="btn btn-default">Verspertino</button>
+						<button type="button" class="btn btn-default">Noturno</button>
+					</div>
+				</form>
 			</section>
 		</main>
 	</div>
