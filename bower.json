@@ -1,0 +1,9 @@
+{
+	"name": "carona-feevale",
+	"description": "App para fazer a galera compartilhar seu carro =)",
+	"version": "0.0.1-dev",
+
+	"dependencies": {
+		"bootstrap": "3.1.1"
+	}
+}
